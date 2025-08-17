@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>OgwuSearch — Portfolio</title>
+    <meta
+      name="description"
+      content="OgwuSearch — Developer portfolio showcasing projects, blog posts, and design experiments."
+    />
+    <meta name="author" content="OgwuSearch" />
+    <meta name="theme-color" content="#1f2937" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="OgwuSearch — Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore projects, blog articles, and case studies by OgwuSearch."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ogwusearch.com/" />
+    <meta property="og:image" content="https://ogwusearch.com/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OgwuSearch — Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore projects, blog articles, and case studies by OgwuSearch."
+    />
+    <meta name="twitter:image" content="https://ogwusearch.com/og-image.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "OgwuSearch",
+        "url": "https://ogwusearch.com/",
+        "image": "https://ogwusearch.com/profile.jpg",
+        "sameAs": [
+          "https://twitter.com/ogwusearch",
+          "https://github.com/ogwusearch",
+          "https://linkedin.com/in/ogwusearch"
+        ],
+        "jobTitle": "Software Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "OgwuSearch"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://ogwusearch.com/",
+        "name": "OgwuSearch Portfolio",
+        "publisher": {
+          "@type": "Person",
+          "name": "OgwuSearch"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "url": "https://ogwusearch.com/blog",
+        "name": "OgwuSearch Blog",
+        "blogPost": [
+          {
+            "@type": "BlogPosting",
+            "headline": "Designing with Queries",
+            "datePublished": "2025-06-10",
+            "author": { "@type": "Person", "name": "OgwuSearch" },
+            "url": "https://ogwusearch.com/blog/designing-with-queries",
+            "image": "https://ogwusearch.com/covers/queries.png",
+            "description": "Why search-first UX changes how people explore your work."
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "Banking UI Trust Signals",
+            "datePublished": "2025-05-02",
+            "author": { "@type": "Person", "name": "OgwuSearch" },
+            "url": "https://ogwusearch.com/blog/banking-ui-trust-signals",
+            "image": "https://ogwusearch.com/covers/banking.png",
+            "description": "Micro-details that make fintech feel credible and safe."
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
